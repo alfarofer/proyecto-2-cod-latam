@@ -1,0 +1,329 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fbfbfb;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #0f0f0f;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 90;
+    height: 90px;
+    box-shadow: 0, 10px 20px
+}
+
+header {
+    box-sizing: border-box;
+    padding: 0,5em 0;
+    border-bottom: 1px solid;    
+}
+
+header{
+    background-color: #fbfbfb;
+}
+/*header*/
+header {
+    width: 100%;
+    display: flex;
+    background-color: #e093cd;
+    font-size: 20px;
+    justify-content: flex-start;
+}
+
+nav ul li {
+    background-color: #e093cd;
+    display: flexbox;
+    float: left;
+    line-height: 75px;
+    padding: 7px;
+}
+
+
+/*header*/
+header img {
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+}
+
+header a:hover {
+    color: #af599e;
+}
+
+header li {
+    margin-right: 20px;
+}
+
+header ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+main {
+    padding: 3rem;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.Foto img{
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+
+.Foto img:hover {
+    transform: scale(1.2);
+    transition: 0,9s ease-in-out
+}
+
+p {
+    justify-content: center;
+    padding: 10px;
+    text-align: justify;
+}
+
+section h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+#SobreMi h1{
+    line-height: 5em;
+}
+
+#Nombre {
+    font-size: 28px;
+}
+
+section h2 a {
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#miCV {
+    max-width: 30%;
+    margin: auto;
+    border: 10px;
+    background-color: #af599e;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: #fbfbfb;
+    text-decoration: none;
+    padding: 0 0.5em;
+    line-height: 2.5em;
+    transition: background-color 0,3 #e093cd
+}
+
+#miCV:hover {
+    background-color: #e093cd;
+    color: #0f0f0f;
+}
+
+.miCV:active {
+    transform: scale(.95);
+}
+
+miCV a {
+    text-align: center;   
+}
+
+#hablemos {
+    line-height: 25px;
+}
+
+#Laboral {
+    text-align: center;
+}
+
+#Social {
+    text-align: center;   
+}
+
+h3 {
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-style: italic;
+}
+
+#hablemos li {
+    background-color: rgb(224, 147, 205);
+    border-radius: 20px;
+    list-style: none;
+    padding: 15px;
+}
+
+#Contacto {
+    padding: 20px;
+}
+
+.Redes img {
+    display: flexbox;
+    justify-content: space-around;
+    width: 60px;
+    height: 60px;
+    padding: 5px; 
+}
+
+.Redes {
+    list-style: none;
+    text-align: center;  
+}
+
+.Redes ul li {
+    margin: 10px;
+    padding: 20px;
+    list-style: none;
+    display:inline-block;   
+}
+
+.Redes ul li a {
+    display: block;
+    padding: 0,5rem 10rem;
+    list-style: none;
+}
+
+footer p {
+    background-color: #af599e;
+    font-family: 'Lato', sans-serif;
+    color: #fbfbfb;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+/* mobile */
+/*@media screen and (max-width: 760px) {
+     header {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav ul li {
+        background-color: #e093cd;
+        display: flexbox;
+        float: left;
+        line-height: 75px;
+        
+        }
+}
+
+@media screen and (max-width: 760px){
+    main {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 760px){
+    footer {
+        width: 95%;
+    }
+} */
+
+/* desktop */
+@media screen and (min-width: 1024px) {
+    header {
+        width: 100%;
+        display: flex;
+        background-color: #af599e;
+        font-size: 48px;
+        justify-content: flex-end;
+        }
+
+    section h1 {
+        font-size: 48px;
+        }
+
+    nav ul li {
+        background-color: #af599e;
+        display: flexbox;
+        float: left;
+        line-height: 75px;
+        }
+
+        section h2 a {
+            font-size: 34px;
+        }
+
+        section h3 {
+            font-size: 28px;
+        }
+
+        section p {
+            font-size: 20px;
+        }
+
+        ol {
+            font-size: 20px;
+        }
+    }
+
+@media screen and (min-width: 1024px) {
+    
+
+    header.abajo {
+        color: #fbfbfb;
+        height: 120px;
+        padding: 0.5em 0;
+        transition: 0.5s;
+        
+        }
+        header a:hover {
+            color: #e093cd;
+        }
+
+        .sube {
+            opacity: 0;
+            transition: all 0.5s;
+        }
+
+        .subir {
+            animation: subir 2s;
+        }
+
+        @keyframes subir {
+            0%{
+                transform: translateY(60px)
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+    }
